@@ -1,6 +1,6 @@
 <?php
 require 'imports/require.php'; // import $tasks variable
-// Load existing tasks                                   // this second parameter converts the json object into an associative array
+// Load existing tasks  
 // Check if form is submitted and task is not empty
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['task'])) {
     // Add new task to the array
